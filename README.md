@@ -75,4 +75,4 @@ project-management/
 5. Define test coverage in `project-management/testing/`.
 6. Record the deployment and outcome in `project-management/releases/`.
 
-Start with [project-management/README.md](C:\Users\yzevakin\Documents\New project 4\project-management\README.md).
+Start with [project-management/README.md].
