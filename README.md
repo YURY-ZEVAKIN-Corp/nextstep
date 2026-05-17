@@ -93,4 +93,6 @@ project-management/
 
 Fork this framework and start your own project using Codex, Gemini CLI, Copilot CLI, or Claude Code.
 
+Example projects are available in [YuryZevakin/nextstep-KeyStone](https://github.com/YuryZevakin/nextstep-KeyStone).
+
 
