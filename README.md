@@ -2,6 +2,16 @@
 
 NextStep is a lightweight framework for governing software delivery across multiple projects from idea to production.
 
+## Why This Framework Matters for AI-Driven Development
+
+Traditional delivery systems (for example, Jira-based processes) were designed for human interaction, not autonomous AI execution. They rely on manual updates, UI-driven workflows, and unstructured project context.
+
+AI-driven development requires direct, reliable, and permissioned access to project data so agents can operate as contributors, not just assistants. To support that, teams need a machine-first framework that enables AI agents to read, update, and correlate delivery data across requirements, tasks, code, tests, and incidents.
+
+This framework provides that foundation through structured artifacts, governed changes, end-to-end traceability, and report generation from live project state.
+
+Without this layer, AI remains advisory. With it, AI can participate in planning, delivery, and reporting as an operational execution layer.
+
 It is designed to help you:
 
 - capture and refine requirements;
