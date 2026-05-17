@@ -14,15 +14,16 @@ Capture and triage new work items before formal requirement creation.
 ## Steps
 1. Add backlog item with unique ID.
 2. Classify work type and priority.
-3. Add short value statement.
-4. Define next action.
-5. Set status to `Draft` unless ready for immediate analysis.
+3. Assign the item to a named team member.
+4. Add short value statement.
+5. Define next action.
+6. Set status to `Draft` unless ready for immediate analysis.
 
 ## Outputs
 - Updated backlog entry in `projects/<key>/backlog.md`
 
 ## Quality Checks
-- Item has ID, title, type, priority, source, value statement, next action.
+- Item has ID, title, type, priority, source, assignee, value statement, next action.
 - Duplicates are checked.
 
 ## Status Transition
