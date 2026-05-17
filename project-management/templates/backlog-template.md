@@ -9,10 +9,10 @@ Use this file as the intake list before items are promoted into formal requireme
 ## Status Guidance
 
 - `Draft`: newly captured
-- `Refining`: being clarified
-- `Ready for Requirement`: mature enough to become a requirement
-- `Rejected`: intentionally not pursued
-- `Done`: delivered through the framework
+- `Ready`: mature enough to become a requirement
+- `In Progress`: being actively refined or executed
+- `Blocked`: cannot proceed due to a dependency or issue
+- `Closed`: intentionally not pursued or completed through the framework
 
 ## Type Guidance
 

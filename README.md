@@ -68,11 +68,15 @@ project-management/
 
 ## Recommended Workflow
 
-1. Create a requirement in `project-management/requirements/`.
-2. Link that requirement in `project-management/traceability-matrix.md`.
-3. Create a solution document in `project-management/solutions/`.
-4. Break the work into implementation tasks in `project-management/implementation/`.
-5. Define test coverage in `project-management/testing/`.
-6. Record the deployment and outcome in `project-management/releases/`.
+1. Create a requirement in `project-management/projects/<project-key>/requirements/`.
+2. Link that requirement in `project-management/projects/<project-key>/traceability-matrix.md`.
+3. Create a solution document in `project-management/projects/<project-key>/solutions/`.
+4. Break the work into implementation tasks in `project-management/projects/<project-key>/implementation/`.
+5. Define test coverage in `project-management/projects/<project-key>/testing/`.
+6. Record the deployment and outcome in `project-management/projects/<project-key>/releases/`.
 
-Start with [project-management/README.md].
+## How to Start
+
+Fork this framework and start your own project using Codex, Gemini CLI, Copilot CLI, or Claude Code.
+
+
