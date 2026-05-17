@@ -6,7 +6,7 @@ Use this checklist for every scheduled project or portfolio audit.
 
 - [ ] Backlog exists and is actively maintained.
 - [ ] New work is entering through backlog before requirement creation.
-- [ ] Backlog items have status, priority, value statement, and next action.
+- [ ] Backlog items have status, priority, assignee, value statement, and next action.
 
 ## 2. Requirement Governance
 

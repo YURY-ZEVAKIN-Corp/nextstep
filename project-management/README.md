@@ -124,6 +124,7 @@ Backlog items should include:
 - priority;
 - status;
 - source or requester;
+- assigned team member;
 - short value statement;
 - next action.
 
@@ -229,6 +230,8 @@ Each major stack choice must also record its Technology Radar assessment.
 
 - Every project must maintain a backlog.
 - Every new candidate work item should be recorded in the backlog before requirement creation.
+- Every backlog item must have a named team-member assignee.
+- Team members may be assigned across multiple projects.
 - Every new `REQ` must be checked against the requirement checklist before approval.
 - Every new `REQ` must include a calculated business value metric.
 - Every project must maintain a technology stack document.
