@@ -8,6 +8,8 @@
 - Status: `Draft`
 - Start Date:
 - Target Outcome:
+- Sprint Cadence: `Biweekly`
+- Sprint Length: `2 weeks`
 
 ## Purpose
 

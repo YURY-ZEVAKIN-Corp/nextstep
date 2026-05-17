@@ -13,9 +13,10 @@ Core project files:
 - `decision-register.md`
 - `audit-log.md`
 - `backlog.md`
+- `sprints.md`
 - `roadmap.md`
 - `traceability-matrix.md`
 
 Expected flow:
 
-`backlog.md -> requirements -> solutions -> decisions -> implementation -> testing -> releases`
+`backlog.md -> requirements -> solutions -> decisions -> implementation -> sprints -> testing -> releases`

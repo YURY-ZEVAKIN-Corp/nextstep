@@ -4,7 +4,9 @@ Apply these standards to every project:
 
 - Every project must have a unique project key.
 - Every project must maintain a backlog as the intake source for work.
+- Every project must maintain a sprint plan for iterative delivery tracking.
 - Every backlog item must have a named team-member assignee.
+- Every backlog item must include a target sprint or be marked `Unscheduled`.
 - Team members may work across many projects.
 - Every requirement must pass the requirement checklist before becoming `Ready`.
 - Every requirement must include a calculated business value metric.

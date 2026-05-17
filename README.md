@@ -10,6 +10,7 @@ It is designed to help you:
 - govern each project's technology stack through decisions;
 - turn requirements into solution designs;
 - implement work in small, traceable increments;
+- plan and track iterative delivery through sprints;
 - test changes before release;
 - deploy safely and record what was shipped.
 
@@ -48,6 +49,7 @@ project-management/
   projects/
     sample-project/
       backlog.md
+      sprints.md
       roadmap.md
       traceability-matrix.md
       requirements/
@@ -60,6 +62,7 @@ project-management/
     requirement-template.md
     solution-template.md
     implementation-plan-template.md
+    sprint-template.md
     test-plan-template.md
     release-template.md
     decision-template.md
@@ -72,8 +75,9 @@ project-management/
 2. Link that requirement in `project-management/projects/<project-key>/traceability-matrix.md`.
 3. Create a solution document in `project-management/projects/<project-key>/solutions/`.
 4. Break the work into implementation tasks in `project-management/projects/<project-key>/implementation/`.
-5. Define test coverage in `project-management/projects/<project-key>/testing/`.
-6. Record the deployment and outcome in `project-management/projects/<project-key>/releases/`.
+5. Assign and plan implementation work in `project-management/projects/<project-key>/sprints.md`.
+6. Define test coverage in `project-management/projects/<project-key>/testing/`.
+7. Record the deployment and outcome in `project-management/projects/<project-key>/releases/`.
 
 ## How to Start
 

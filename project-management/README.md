@@ -65,6 +65,7 @@ Each project contains its own:
 - decision register
 - audit log
 - backlog
+- sprint plan
 - roadmap
 - traceability matrix
 - requirements
@@ -127,10 +128,29 @@ Backlog items should include:
 - assigned team member;
 - short value statement;
 - next action.
+- target sprint or `Unscheduled`.
 
 Recommended flow:
 
-`Backlog -> Requirement -> Solution -> Decision -> Implementation -> Test -> Release`
+`Backlog -> Requirement -> Solution -> Decision -> Implementation -> Sprint -> Test -> Release`
+
+### Sprint Planning
+
+Each project must maintain a sprint plan in `projects/<project-key>/sprints.md`.
+
+Sprints are timeboxed delivery iterations used to:
+
+- commit a prioritized subset of ready backlog and implementation work;
+- align ownership and capacity for a short window;
+- track sprint goal, scope changes, and outcome.
+
+Each sprint entry should include:
+
+- sprint ID and date window;
+- sprint goal;
+- committed items;
+- in-sprint changes;
+- sprint outcome and carryover.
 
 ### 1. Requirements
 
@@ -229,8 +249,10 @@ Each major stack choice must also record its Technology Radar assessment.
 ## Core Rules
 
 - Every project must maintain a backlog.
+- Every project must maintain a sprint plan.
 - Every new candidate work item should be recorded in the backlog before requirement creation.
 - Every backlog item must have a named team-member assignee.
+- Every backlog item must include a target sprint or be marked `Unscheduled`.
 - Team members may be assigned across multiple projects.
 - Every new `REQ` must be checked against the requirement checklist before approval.
 - Every new `REQ` must include a calculated business value metric.
