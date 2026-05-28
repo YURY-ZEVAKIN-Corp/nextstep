@@ -8,6 +8,8 @@
 - Status:
 - Start Date:
 - Target Outcome:
+- Sprint Cadence:
+- Sprint Length:
 
 ## Purpose
 

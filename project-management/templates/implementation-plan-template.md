@@ -7,6 +7,7 @@
 - Owner: `Name`
 - Created: `YYYY-MM-DD`
 - Project Key: `PROJECT`
+- Target Sprint: `Unscheduled`
 - Related Solution: `PROJECT-SOL-XXX`
 - Related Requirements: `PROJECT-REQ-XXX`
 
