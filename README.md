@@ -46,7 +46,7 @@ Recommended interpretation:
 
 NextStep is best suited for teams that need both delivery flow and governance, especially when working across multiple software projects.
 
-## The 5 Levels of STLC AI Maturity
+## The 5 Levels of SDLC AI Maturity
 
 Organizations scale from ad-hoc usage to fully autonomous quality assurance systems.
 
@@ -67,7 +67,9 @@ State: Continuous, self-optimizing quality ecosystem. AI agents independently re
 
 ### Estimated Level for This Framework
 
-Based on the current repository structure and governance assets, this framework is best positioned at **AI-Assisted (Level 3)**.
+Based on the current repository structure and governance assets, this framework is currently best positioned at **AI-Assisted (Level 3)**.
+
+Target maturity is **AI-Autonomous (Level 5)**.
 
 It already supports structured, machine-readable delivery workflows (requirements, traceability, testing plans, releases, decisions), which is the foundation for consistent AI-assisted QA and testing orchestration. To reach Level 4, it would need deeper pipeline-native automation such as self-healing test execution and predictive release gates integrated directly into CI/CD.
 
