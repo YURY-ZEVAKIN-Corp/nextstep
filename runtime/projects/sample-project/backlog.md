@@ -1,0 +1,7 @@
+# Backlog
+
+Use this file as the intake list before items are promoted into formal requirements.
+
+| ID | Title | Type | Priority | Status | Source | Assignee | Sprint | Value Statement | Next Action | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|
+| SAMPLE-IDEA-001 | Example: User authentication | Feature | High | Draft | Founder | Product Manager | SPRINT-2026-06-A | Enables user access control for the product | Promote to requirement | Example item |

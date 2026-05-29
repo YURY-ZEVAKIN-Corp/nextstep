@@ -1,5 +1,8 @@
 # NextStep Operating Model
 
+> Legacy-compatible path notice: `project-management/` remains supported for existing forks.
+> Canonical structure for new work is split into `framework/`, `runtime/`, and `agents/`.
+
 This framework supports multiple projects under one portfolio.
 
 ## Anchor Model Alignment
@@ -130,6 +133,17 @@ Backlog items should include:
 - next action.
 - target sprint or `Unscheduled`.
 
+Definition of Ready gate for backlog items:
+
+- clear description and business value;
+- defined acceptance criteria;
+- size estimate;
+- identified dependencies;
+- understood test approach;
+- no blocking open questions.
+
+If any Definition of Ready criterion is missing, the backlog item stays `Draft` and must not be promoted to requirement creation.
+
 Recommended flow:
 
 `Backlog -> Requirement -> Solution -> Decision -> Implementation -> Sprint -> Test -> Release`
@@ -253,6 +267,7 @@ Each major stack choice must also record its Technology Radar assessment.
 - Every new candidate work item should be recorded in the backlog before requirement creation.
 - Every backlog item must have a named team-member assignee.
 - Every backlog item must include a target sprint or be marked `Unscheduled`.
+- Every backlog item must satisfy the Definition of Ready before it can move to `Ready`.
 - Team members may be assigned across multiple projects.
 - Every new `REQ` must be checked against the requirement checklist before approval.
 - Every new `REQ` must include a calculated business value metric.

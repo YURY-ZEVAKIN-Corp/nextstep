@@ -75,6 +75,22 @@ It already supports structured, machine-readable delivery workflows (requirement
 
 ## Structure
 
+Canonical structure (v2):
+
+```text
+framework/
+  templates/
+runtime/
+  portfolio/
+  projects/
+agents/
+  skills/
+  prompts/
+  playbooks/
+```
+
+Legacy-compatible structure (still supported for forks and existing automation):
+
 ```text
 project-management/
   README.md
@@ -106,15 +122,21 @@ project-management/
     project-charter-template.md
 ```
 
+Compatibility rule:
+
+- Existing `project-management/*` paths remain in the repository and are still valid.
+- New work should use `framework/*`, `runtime/*`, and `agents/*`.
+- Migration can be done incrementally without breaking existing forks.
+
 ## Recommended Workflow
 
-1. Create a requirement in `project-management/projects/<project-key>/requirements/`.
-2. Link that requirement in `project-management/projects/<project-key>/traceability-matrix.md`.
-3. Create a solution document in `project-management/projects/<project-key>/solutions/`.
-4. Break the work into implementation tasks in `project-management/projects/<project-key>/implementation/`.
-5. Assign and plan implementation work in `project-management/projects/<project-key>/sprints.md`.
-6. Define test coverage in `project-management/projects/<project-key>/testing/`.
-7. Record the deployment and outcome in `project-management/projects/<project-key>/releases/`.
+1. Create a requirement in `runtime/projects/<project-key>/requirements/`.
+2. Link that requirement in `runtime/projects/<project-key>/traceability-matrix.md`.
+3. Create a solution document in `runtime/projects/<project-key>/solutions/`.
+4. Break the work into implementation tasks in `runtime/projects/<project-key>/implementation/`.
+5. Assign and plan implementation work in `runtime/projects/<project-key>/sprints.md`.
+6. Define test coverage in `runtime/projects/<project-key>/testing/`.
+7. Record the deployment and outcome in `runtime/projects/<project-key>/releases/`.
 
 ## How to Start
 

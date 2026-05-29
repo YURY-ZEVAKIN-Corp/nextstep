@@ -7,6 +7,7 @@ Apply these standards to every project:
 - Every project must maintain a sprint plan for iterative delivery tracking.
 - Every backlog item must have a named team-member assignee.
 - Every backlog item must include a target sprint or be marked `Unscheduled`.
+- Every backlog item must satisfy the Definition of Ready before it can move to `Ready`.
 - Team members may work across many projects.
 - Every requirement must pass the requirement checklist before becoming `Ready`.
 - Every requirement must include a calculated business value metric.
