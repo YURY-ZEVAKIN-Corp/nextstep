@@ -85,7 +85,7 @@ This framework uses six artifact types inside each project:
 - `IMP`: implementation plan or execution slice
 - `TST`: test plan or test report
 - `REL`: deployment or release record
-- `DEC`: architectural or product decision
+- `DEC`: decision record with explicit type (for example `Architecture Decision Record (ADR)`, product, or process)
 
 In addition, each project maintains a technology stack document that summarizes selected technologies and links each choice to one or more decision records.
 Each project also maintains a backlog as the intake source for future requirements.

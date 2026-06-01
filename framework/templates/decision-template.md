@@ -3,6 +3,7 @@
 ## Metadata
 
 - ID: `PROJECT-DEC-XXX`
+- Decision Type: `Architecture Decision Record (ADR) | Product Decision Record (PDR) | Process Decision Record`
 - Status: `Draft | In Review | Accepted | Rejected | Superseded`
 - Owner: `Name`
 - Date: `YYYY-MM-DD`
