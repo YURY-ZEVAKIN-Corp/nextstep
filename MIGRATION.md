@@ -6,7 +6,7 @@ This repository now supports a split layout to separate framework assets, runtim
 
 - `framework/` for reusable governance assets and templates
 - `runtime/` for live portfolio and project data
-- `agents/` for skills, prompts, and playbooks
+- `agents/` for AI automation assets (4-tier artifact system)
 
 ## Compatibility for Existing Forks
 
@@ -23,9 +23,22 @@ To avoid breaking existing forks and scripts:
 - `project-management/projects` -> `runtime/projects`
 - `project-management/templates/skills` -> `agents/skills`
 
+## Agent Artifact System (`agents/`)
+
+The `agents/` directory uses a 4-tier artifact hierarchy:
+
+| Tier | Directory | Extension | Purpose |
+|------|-----------|-----------|---------|
+| Prompts | `agents/prompts/` | `.prompt.md` | Workflow entry points — capture user intent, delegate to agents |
+| Agents | `agents/agents/` | `.agent.md` | Task-specific behaviors with subagent delegation and tool access |
+| Instructions | `agents/instructions/` | `.instructions.md` | Passive guidance auto-applied via glob patterns |
+| Skills | `agents/skills/` | `.skill.md` | On-demand process knowledge with progressive disclosure |
+
+Delegation flow: `User Request -> Prompt -> Agent -> Instructions (auto-applied) / Skills (on-demand)`
+
 ## Adoption Guidance
 
 1. Use `runtime/*` for all new project artifacts.
 2. Use `framework/templates/*` for all new template updates.
-3. Use `agents/*` for prompt and skill evolution.
+3. Use `agents/{prompts,agents,instructions,skills}/*` for all new agent assets.
 4. Keep legacy references until downstream forks have migrated.

@@ -84,9 +84,10 @@ runtime/
   portfolio/
   projects/
 agents/
-  skills/
-  prompts/
-  playbooks/
+  prompts/        # Workflow entry points (.prompt.md)
+  agents/         # Task-specific behaviors (.agent.md)
+  instructions/   # Auto-applied conventions (.instructions.md)
+  skills/         # On-demand process knowledge (.skill.md)
 ```
 
 Legacy-compatible structure (still supported for forks and existing automation):
