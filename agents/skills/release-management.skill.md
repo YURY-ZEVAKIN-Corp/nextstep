@@ -22,14 +22,14 @@ Deploy validated changes safely and record release outcomes.
 - Rollback plan is defined.
 
 ## Steps
-1. Create release record in `projects/<key>/releases/`.
+1. Create release record in `runtime/projects/<key>/releases/`.
 2. Document change set and verification evidence.
 3. Execute deployment.
 4. Run post-deploy checks.
 5. Record result and follow-up actions.
 
 ## Outputs
-- Release artifact in `projects/<key>/releases/`
+- Release artifact in `runtime/projects/<key>/releases/`
 - Deployment outcome and follow-up list
 
 ## Quality Checks
@@ -48,7 +48,7 @@ Deploy validated changes safely and record release outcomes.
 
 ## Tools/Templates
 - `framework/templates/release-template.md`
-- `projects/<key>/traceability-matrix.md`
+- `runtime/projects/<key>/traceability-matrix.md`
 
 ## Escalation
 If deployment risk is high or checks fail, trigger rollback and escalate incident handling.

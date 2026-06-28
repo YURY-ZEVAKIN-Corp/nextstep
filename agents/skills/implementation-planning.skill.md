@@ -21,14 +21,14 @@ Break approved solution scope into executable increments with ownership and depe
 - Blocking decisions are accepted.
 
 ## Steps
-1. Create implementation plan in `projects/<key>/implementation/`.
+1. Create implementation plan in `runtime/projects/<key>/implementation/`.
 2. Split work into milestones and tasks.
 3. Define owners, dependencies, and done criteria.
 4. Add delivery risks and mitigations.
 5. Link to requirement/solution/decision IDs.
 
 ## Outputs
-- Implementation artifact in `projects/<key>/implementation/`
+- Implementation artifact in `runtime/projects/<key>/implementation/`
 
 ## Quality Checks
 - Each task has owner and done criteria.
@@ -46,7 +46,7 @@ Break approved solution scope into executable increments with ownership and depe
 
 ## Tools/Templates
 - `framework/templates/implementation-plan-template.md`
-- `projects/<key>/traceability-matrix.md`
+- `runtime/projects/<key>/traceability-matrix.md`
 
 ## Escalation
 If capacity or dependencies block scheduling, escalate to Project Manager.

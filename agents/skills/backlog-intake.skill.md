@@ -18,7 +18,7 @@ Capture and triage new work items before formal requirement creation.
 - Project key
 
 ## Preconditions
-- Project backlog file exists: `projects/<key>/backlog.md`
+- Project backlog file exists: `runtime/projects/<key>/backlog.md`
 
 ## Steps
 1. Add backlog item with unique ID.
@@ -29,7 +29,7 @@ Capture and triage new work items before formal requirement creation.
 6. Set status to `Draft` unless ready for immediate analysis.
 
 ## Outputs
-- Updated backlog entry in `projects/<key>/backlog.md`
+- Updated backlog entry in `runtime/projects/<key>/backlog.md`
 
 ## Quality Checks
 - Item has ID, title, type, priority, source, assignee, value statement, next action.
@@ -45,7 +45,7 @@ Capture and triage new work items before formal requirement creation.
 - I: Dev, QA, DevOps
 
 ## Tools/Templates
-- `projects/<key>/backlog.md`
+- `runtime/projects/<key>/backlog.md`
 - `framework/templates/backlog-template.md`
 
 ## Escalation

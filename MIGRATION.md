@@ -25,7 +25,7 @@ To avoid breaking existing forks and scripts:
 
 ## Agent Artifact System (`agents/`)
 
-The `agents/` directory uses a 4-tier artifact hierarchy:
+The `agents/` directory uses a 4-tier artifact hierarchy (plus playbooks):
 
 | Tier | Directory | Extension | Purpose |
 |------|-----------|-----------|---------|
@@ -33,8 +33,11 @@ The `agents/` directory uses a 4-tier artifact hierarchy:
 | Agents | `agents/agents/` | `.agent.md` | Task-specific behaviors with subagent delegation and tool access |
 | Instructions | `agents/instructions/` | `.instructions.md` | Passive guidance auto-applied via glob patterns |
 | Skills | `agents/skills/` | `.skill.md` | On-demand process knowledge with progressive disclosure |
+| Playbooks | `agents/playbooks/` | `.playbook.md` | End-to-end multi-phase workflow orchestration |
 
 Delegation flow: `User Request -> Prompt -> Agent -> Instructions (auto-applied) / Skills (on-demand)`
+
+For multi-phase delivery, see `agents/playbooks/` which combine skills, agents, and gates into complete workflows.
 
 ## Adoption Guidance
 

@@ -20,14 +20,14 @@ Define and execute validation required for safe release.
 - Implementation scope is stable enough for test planning.
 
 ## Steps
-1. Create test artifact in `projects/<key>/testing/`.
+1. Create test artifact in `runtime/projects/<key>/testing/`.
 2. Define acceptance, functional, and regression coverage.
 3. Add non-functional checks where required.
 4. Execute tests and record outcomes.
 5. Report defects and retest status.
 
 ## Outputs
-- Test artifact in `projects/<key>/testing/`
+- Test artifact in `runtime/projects/<key>/testing/`
 - Evidence for release readiness
 
 ## Quality Checks
@@ -46,7 +46,7 @@ Define and execute validation required for safe release.
 
 ## Tools/Templates
 - `framework/templates/test-plan-template.md`
-- `projects/<key>/traceability-matrix.md`
+- `runtime/projects/<key>/traceability-matrix.md`
 
 ## Escalation
 If critical defects remain open, escalate no-go recommendation to Project Manager and Tech Lead.

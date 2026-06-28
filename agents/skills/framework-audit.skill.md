@@ -28,7 +28,7 @@ Assess whether the framework itself remains effective, adopted, and fit for curr
 5. Record decisions and update standards/templates as approved.
 
 ## Outputs
-- Framework audit record in `portfolio/framework-audit-log.md`
+- Framework audit record in `runtime/portfolio/framework-audit-log.md`
 - Improvement backlog for framework changes
 
 ## Quality Checks

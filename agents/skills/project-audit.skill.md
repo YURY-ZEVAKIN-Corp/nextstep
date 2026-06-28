@@ -29,7 +29,7 @@ Verify project compliance with framework controls, traceability, and governance 
 5. Update project audit log.
 
 ## Outputs
-- Audit findings in `projects/<key>/audit-log.md`
+- Audit findings in `runtime/projects/<key>/audit-log.md`
 - Corrective action list with owners and due dates
 
 ## Quality Checks
@@ -48,8 +48,8 @@ Verify project compliance with framework controls, traceability, and governance 
 
 ## Tools/Templates
 - `framework/templates/audit-checklist.md`
-- `projects/<key>/audit-log.md`
-- `projects/<key>/traceability-matrix.md`
+- `runtime/projects/<key>/audit-log.md`
+- `runtime/projects/<key>/traceability-matrix.md`
 
 ## Escalation
 If severe non-compliance is found, escalate to portfolio governance immediately.

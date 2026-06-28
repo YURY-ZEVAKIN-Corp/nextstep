@@ -29,7 +29,7 @@ State the decision clearly.
 
 ## Decision Checklist Review
 
-Checklist file: `project-management/templates/decision-checklist.md`
+Checklist file: `framework/templates/decision-checklist.md`
 
 - Review Date:
 - Reviewer:

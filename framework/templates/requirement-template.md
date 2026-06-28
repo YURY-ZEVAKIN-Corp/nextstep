@@ -47,7 +47,7 @@ Describe the capability that must exist.
 
 ## Requirement Checklist Review
 
-Checklist file: `project-management/templates/requirement-checklist.md`
+Checklist file: `framework/templates/requirement-checklist.md`
 
 - Review Date:
 - Reviewer:

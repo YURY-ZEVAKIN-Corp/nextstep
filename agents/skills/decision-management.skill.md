@@ -21,15 +21,15 @@ Capture and govern significant product or technical decisions with rationale.
 - Decision scope and owner are identified.
 
 ## Steps
-1. Create decision record in `projects/<key>/decisions/`.
+1. Create decision record in `runtime/projects/<key>/decisions/`.
 2. Document context, options, selected option, rationale, consequences.
 3. Run decision checklist.
 4. Set decision status and update decision register.
 5. Link decision in traceability matrix and related artifacts.
 
 ## Outputs
-- Decision artifact in `projects/<key>/decisions/`
-- Updated `projects/<key>/decision-register.md`
+- Decision artifact in `runtime/projects/<key>/decisions/`
+- Updated `runtime/projects/<key>/decision-register.md`
 
 ## Quality Checks
 - Checklist passed: `framework/templates/decision-checklist.md`

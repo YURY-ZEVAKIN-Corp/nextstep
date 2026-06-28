@@ -22,7 +22,7 @@ Define a feasible solution approach aligned to requirements and stack constraint
 - Relevant system context is available.
 
 ## Steps
-1. Create solution artifact in `projects/<key>/solutions/`.
+1. Create solution artifact in `runtime/projects/<key>/solutions/`.
 2. Describe approach and impacted components.
 3. Document risks and alternatives.
 4. Define rollout approach.
@@ -30,7 +30,7 @@ Define a feasible solution approach aligned to requirements and stack constraint
 6. Update traceability links.
 
 ## Outputs
-- Solution artifact in `projects/<key>/solutions/`
+- Solution artifact in `runtime/projects/<key>/solutions/`
 - Updated traceability links
 
 ## Quality Checks
@@ -49,7 +49,7 @@ Define a feasible solution approach aligned to requirements and stack constraint
 
 ## Tools/Templates
 - `framework/templates/solution-template.md`
-- `projects/<key>/technology-stack.md`
+- `runtime/projects/<key>/technology-stack.md`
 
 ## Escalation
 If solution conflicts with approved stack, escalate for decision record creation.
